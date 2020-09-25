@@ -6,6 +6,7 @@ __pycache__
 
 # Remove Editor(s) hidden folders
 .idea
+.vscode
 
 # no env files
 .env
