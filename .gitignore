@@ -1,0 +1,13 @@
+# Remove all pycache
+__pycache__
+
+# No .DS_Store from mac
+.DS_Store
+
+# Remove Editor(s) hidden folders
+.idea
+
+# no env files
+.env
+.env.local
+.flaskenv
