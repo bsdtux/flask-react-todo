@@ -12,3 +12,7 @@ __pycache__
 .env
 .env.local
 .flaskenv
+
+
+# No sqlite files
+api/db/*.sqlite
