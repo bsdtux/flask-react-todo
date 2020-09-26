@@ -18,7 +18,7 @@ class DevConfig(BaseConfig):
         BaseConfig (class): Super configuration class to inherit from
     """
     DEBUG=True
-    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, 'dev_db.sqlite')}"
+    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, '../db/dev_db.sqlite')}"
 
 
 class TestingConfig(BaseConfig):
@@ -29,7 +29,7 @@ class TestingConfig(BaseConfig):
     """
     DEBUG=True
     TESTING=True
-    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, 'testing_db.sqlite')}"
+    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, '../db/testing_db.sqlite')}"
 
 
 
@@ -39,7 +39,7 @@ class ProdConfig(BaseConfig):
     Args:
         BaseConfig (class): Super configuration class to inherit from
     """
-    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, 'production_db.sqlite')}"
+    SQLALCHEMY_DATABASE_URI=f"sqlite:///{os.path.join(BASE_DIR, '../db/production_db.sqlite')}"
 
 
 
