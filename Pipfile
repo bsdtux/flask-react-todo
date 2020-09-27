@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 pylint = "*"
 pytest = "*"
+coverage = "*"
 
 [packages]
 flask = "*"
@@ -15,6 +16,7 @@ marshmallow-sqlalchemy = "*"
 python-dotenv = "*"
 flask-script = "*"
 flask-migrate = "*"
+flask-testing = "*"
 
 [requires]
 python_version = "3.8"

@@ -16,3 +16,6 @@ __pycache__
 
 # No sqlite files
 api/db/*.sqlite
+
+# remove test coverage directory
+api/tmp/*
